@@ -1002,6 +1002,9 @@ system as Users normally using the site.</p>
 <li>This is used with the Authorization Code authorization flow.</li>
 </ul>
 </li>
+<li><code>consumer.allowed_origins</code> - Define any allowed origins the farmOS server
+  should allow CORS requests from. This is required for any API integrations
+  that will run in the browser.</li>
 <li><code>consumer.third_party</code> - Enable if the Consumer represents a third party.<ul>
 <li>Users will skip the "grant" step of the authorization flow for first
   party consumers only.</li>
